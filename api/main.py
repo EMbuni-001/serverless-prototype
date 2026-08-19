@@ -4,7 +4,7 @@ import json
 class handler(BaseHTTPRequestHandler): 
   def do_GET(self): 
 
-    self.send_response(500)
+    self.send_response(200)
     self.send_header('content-type', 'application/json')
     self.end_headers()
     
