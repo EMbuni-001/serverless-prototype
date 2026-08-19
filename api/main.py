@@ -1,0 +1,15 @@
+from http.server import BaseHTTPRequestHandler
+import json 
+
+class handler(BaseHTTPRequestHandler): 
+  def do_GET(self): 
+
+    self.send_response(500)
+    self.send_header('content-type', 'application/json')
+    self.end_headers()
+    
+    response_data = {"message": "Hello! Welcome to serverless paradise!")
+                     
+    self.wfile.write(json.dumps(response_data).encode())
+    
+  
