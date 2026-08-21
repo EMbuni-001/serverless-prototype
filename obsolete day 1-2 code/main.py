@@ -7,5 +7,3 @@ class handler(BaseHTTPRequestHandler):
     self.end_headers()
     response_data = {"message": "Hello! Welcome to serverless paradise!"}            
     self.wfile.write(json.dumps(response_data).encode())
-    
-  
