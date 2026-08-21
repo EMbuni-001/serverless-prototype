@@ -1,3 +1,5 @@
+DEPRECATED after day 4 pivot 
+
 from http.server import BaseHTTPRequestHandler
 import json 
 class handler(BaseHTTPRequestHandler): 
