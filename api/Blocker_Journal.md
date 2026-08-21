@@ -30,8 +30,9 @@ Action: Copied the code to Qwen and asked where the errors were. Found most were
 A test report was generated successfully. 
 
 ## Refactor and Review Blockers 
-Action: Managing folders and files within Github leading to creation, deletion then recreation of files. Files were successfully named/renamed. 
+Action: Managing folders and files within Github leading to unnecessary creation, deletion then recreation of files. Files were successfully named/renamed. 
 Mixing up codes from day 1 to day 5. File management helped solve this. 
+Action:After all new files were committed, the terminal declined to run the new files. This was solved by opening a new terminus for each run (scan.py and webhook.py) since the merge had created two servers instead of the one earlier used. 
 
 ## General Work Blockers 
 Day-long electric power outages.
