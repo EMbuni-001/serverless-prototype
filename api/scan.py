@@ -5,6 +5,7 @@ import time
 memory = {}
 
 class handler(BaseHTTPRequestHandler):
+    allow_reuse_address = True 
     
     def do_GET(self):
         self.send_response(200)
